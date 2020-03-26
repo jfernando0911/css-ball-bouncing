@@ -1,0 +1,185 @@
+*, *:after, *:before
+    box-sizing: border-box
+
+html
+    box-sizing: inherit
+
+    body
+        margin: 0
+
+        img
+            width: 70%
+            // visibility: hidden
+            // position: relative
+            // z-index: 1        
+        .ball
+            background: red
+            width: 78px
+            height: 78px
+            bottom: 399px
+            left: 732px
+            transform: rotateZ(0deg)
+            border-radius: 50%
+            position: absolute
+            border: 1px solid black
+            opacity: 0.5
+            animation: movement 500ms linear
+
+@keyframes movement
+    // 0%
+    //     bottom: 734px
+    //     left: 128px
+    //     transform: rotateZ(0)
+    // 25%
+    //     bottom: 716px
+    //     left: 185px
+    // 50%
+    //     bottom: 678px
+    //     left: 250px
+    // 75%
+    //     bottom: 585px
+    //     left: 322px
+    // 85%
+    //     bottom: 445px
+    //     left: 400px
+    //     width: 75px
+    //     height: 82px
+    //     border-radius: 50%
+    //     transform: rotateZ(-30deg)
+    // 100%
+    //     width: 60px
+    //     height: 115px
+    //     bottom: 240px
+    //     left: 465px
+    //     transform: rotateZ(-12deg)
+    0%                                        //#jump 1
+        width: 78px
+        height: 78px
+        transform: rotateZ(0deg)
+        bottom: 735px
+        left: 130px
+    5%
+        bottom: 716px
+        left: 185px
+        height: 78px
+        width: 78px
+        transform: rotateZ(0deg)
+    15%   
+        bottom: 678px
+        left: 250px
+        width: 78px
+        height: 78px
+        transform: rotateZ(0deg)
+    25%
+        bottom: 585px
+        left: 322px   
+        width: 78px
+        height: 78px
+        transform: rotateZ(0deg)
+    50%
+        bottom: 445px
+        left: 400px
+        width: 75px
+        height: 82px
+        border-radius: 50%
+        transform: rotateZ(-30deg)
+    75%
+        width: 60px
+        height: 115px
+        bottom: 240px
+        left: 465px
+        transform: rotateZ(-12deg)
+    80%                                       ////#jump 2      
+        width: 110px
+        height: 50px
+        bottom: 178px
+        left: 458px
+        transform: rotateZ(0deg)
+    85%
+        width: 70px
+        height: 100px
+        bottom: 290px
+        left: 492px
+        transform: rotateZ(0deg)
+    87%
+        width: 78px
+        height: 78px
+        bottom: 412px
+        left: 510px
+        transform: rotateZ(0deg)
+    88%
+        width: 78px
+        height: 78px
+        bottom: 492px
+        left: 540px
+        transform: rotateZ(0deg)
+        border-radius: 50%
+    90%
+        width: 78px
+        height: 78px
+        bottom: 536px
+        left: 570px
+        transform: rotateZ(0deg)
+    91%                                      //#jump3
+        width: 78px
+        height: 78px
+        bottom: 559px
+        left: 609px
+        transform: rotateZ(0deg)
+    92%
+        width: 78px
+        height: 78px
+        bottom: 538px
+        left: 655px
+        transform: rotateZ(0deg)
+    93%
+        width: 78px
+        height: 78px
+        bottom: 492px
+        left: 688px
+        transform: rotateZ(0deg)
+    94%
+        width: 78px
+        height: 78px
+        bottom: 399px
+        left: 732px
+        transform: rotateZ(0deg)
+
+    // 40%                                       ///#jump3
+    //     width: 80px
+    //     height: 80px
+    //     bottom: 559px
+    //     left: 609px
+    //     transform: rotateZ(0deg)
+    // 60%                                       ///#jump3
+    //     width: 95px
+    //     height: 60px
+    //     bottom: 172px
+    //     left: 769px
+    //     transform: rotateZ(0deg)
+    // 80%                                         
+    //     width: 80px
+    //     height: 80px
+    //     bottom: 394px
+    //     left: 867px
+    //     transform: rotateZ(0deg)
+    // 85%
+    //     width: 89px
+    //     height: 60px
+    //     bottom: 174px
+    //     left: 968px
+    //     transform: rotateZ(0)
+    // 95%
+    //     width: 80px
+    //     height: 80px
+    //     bottom: 275px
+    //     left: 1010px
+    //     transform: rotateZ(0)
+    // 100%
+    //     width: 85px
+    //     height: 65px
+    //     bottom: 170px
+    //     left: 1056px
+    //     opacity: 0.5
+    //     transform: rotateZ(0)
+
