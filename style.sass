@@ -9,8 +9,7 @@ html
 
         img
             width: 70%
-            visibility: hidden
-            // position: relative
+            visibility: hidden     
         .ball
             background: red
             width: 78px
@@ -22,15 +21,16 @@ html
             position: absolute
             border: 1px solid black
             // opacity: 0.5
-            animation: movement 2s linear infinite
+            animation: movement 2s linear infinite alternate
         .line
             width: 80%
-            height: 5px
+            height: px
             background: black    
             position: absolute
             bottom: 170px
 
 @keyframes movement
+  
     0%                                        //#jump 1
         width: 78px
         height: 78px
@@ -233,41 +233,4 @@ html
         left: 1060px
         transform: rotateZ(0)
         border-radius: 50%
-    // 40%                                       ///#jump3
-    //     width: 80px
-    //     height: 80px
-    //     bottom: 559px
-    //     left: 609px
-    //     transform: rotateZ(0deg)
-    // 60%                                       ///#jump3
-    //     width: 95px
-    //     height: 60px
-    //     bottom: 172px
-    //     left: 769px
-    //     transform: rotateZ(0deg)
-    // 80%                                         
-    //     width: 80px
-    //     height: 80px
-    //     bottom: 394px
-    //     left: 867px
-    //     transform: rotateZ(0deg)
-    // 85%
-    //     width: 89px
-    //     height: 60px
-    //     bottom: 174px
-    //     left: 968px
-    //     transform: rotateZ(0)
-    // 95%
-    //     width: 80px
-    //     height: 80px
-    //     bottom: 275px
-    //     left: 1010px
-    //     transform: rotateZ(0)
-    // 100%
-    //     width: 85px
-    //     height: 65px
-    //     bottom: 170px
-    //     left: 1056px
-    //     opacity: 0.5
-    //     transform: rotateZ(0)
 
